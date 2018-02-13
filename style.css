@@ -1,0 +1,11 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div.brush {
+  height: 40px;
+  width: 40px;
+  background-color: mistyrose;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>big pixel art</title>
+</head>
+<body>
+
+  <form action="">
+    <label for="">color code of name</label>
+    <input type="text">
+    <button>set color</button>
+  </form>
+
+  <div class="brush">
+    
+  </div>
+    
+  <script>
+    $('button').click(function(event){
+      event.preventDefault();
+      $inpColor = $('input').val()
+      $brushBox = $('.brush')
+      $brushBox.css("background-color",$inpColor)
+    })
+    
+
+  </script>
+</body>
+</html>
