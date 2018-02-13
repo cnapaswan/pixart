@@ -17,6 +17,13 @@
     <button>set color</button>
   </form>
 
+  <form action="">
+    <label for="">movie title</label>
+    <input id="movieinput" name="moviename" type="text">
+    <button>fetch poster</button>
+  </form>
+
+
   <div class="brush">
   </div>
 
@@ -45,6 +52,9 @@
       })
     })
 
+    options = {
+      url: "http://omdbapi.com/?s=" + moviename + "&apikey=2f6435d9"
+    }
   
   
 
