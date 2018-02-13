@@ -39,7 +39,7 @@
         $(".square-wrapper").append('<div class="square"></div>')
       }
     
-      $(".square").click(function(){
+      $(".square").mouseover(function(){
         $inpColor = $('input').val()
         $(this).css("background-color",$inpColor)
       })
