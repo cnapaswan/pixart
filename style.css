@@ -9,3 +9,9 @@ div.brush {
   width: 40px;
   background-color: mistyrose;
 }
+
+.square {
+  height: 20px;
+  width: 20px;
+  background-color: red;
+}
