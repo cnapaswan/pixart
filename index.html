@@ -38,9 +38,10 @@
       for(var i = 0; i < 100 ;i++){
         $(".square-wrapper").append('<div class="square"></div>')
       }
-
+    
       $(".square").click(function(){
-        $(this).css("background-color","green")
+        $inpColor = $('input').val()
+        $(this).css("background-color",$inpColor)
       })
     })
 
