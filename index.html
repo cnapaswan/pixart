@@ -23,7 +23,9 @@
     
   <script>
     $('button').click(function(event){
+      $( "button" ).keypress();
       event.preventDefault();
+
       $inpColor = $('input').val()
       $brushBox = $('.brush')
       $brushBox.css("background-color",$inpColor)
